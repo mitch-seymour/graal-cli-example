@@ -8,3 +8,6 @@ cache:
     - $HOME/.gradle/wrapper/
 jdk:
   - openjdk8
+
+script:
+  - ./gradlew nativeImage
